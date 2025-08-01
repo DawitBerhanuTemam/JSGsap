@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Your First Animation</title>
+    <title>Challenge 02</title>
     <link rel="stylesheet" href="../../style.css" />
     <link rel="stylesheet" href="style.css" />
   </head>
@@ -26,32 +26,35 @@
         </div>
 
         <section>
-          <h1>Your First Animation</h1>
+          <h1>Challenge 02</h1>
           <p>
-            This is your first real GSAP animation, and it already shows what’s
-            possible with just a few lines of code.
+            After learning how to animate a single toast notification in the
+            Learn GsapTo lesson, it’s time to take things a step further.
           </p>
           <p>
-            GSAP helps you create smooth, powerful animations that go beyond
-            what regular CSS offers. You can control timing, easing, and even
-            add logic for when and how things animate.
+            Challenge yourself to create a sequence of toasts that appear one
+            after another. Just like real notification systems do. Each toast
+            should rise up, grab attention, and slide away before the next one
+            enters.
           </p>
           <p>
-            It’s fast, flexible, and trusted by companies like Apple, Google,
-            and Nike to build beautiful interactions. Read more on the
-            <a href="https://gsap.com/docs/v3/"> Official GSAP docs</a>.
+            Read more about the
+            <a
+              href="https://greensock.com/docs/v3/GSAP/gsap.to()"
+              target="_blank"
+              >gsap.to()</a
+            >
+            method.
           </p>
         </section>
       </div>
 
       <div class="demo">
         <section class="flex-center">
-          <div class="card" />
+          <div class="toast one">🔔 You’ve got 99 problems</div>
+          <div class="toast two">🎉 And 101 merge conflicts</div>
         </section>
       </div>
-
-      <!-- GSAP CDN -->
-      <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
 
       <script type="module" src="script.js"></script>
     </main>
