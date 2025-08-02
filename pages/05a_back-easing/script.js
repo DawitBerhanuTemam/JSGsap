@@ -7,10 +7,12 @@ const tabActive = document.querySelector('.tab.active')
 const updateIndicator = (target) => {
     const tabBounds = target.getBoundingClientRect();
     const rowBounds = tabRow.getBoundingClientRect();
-    console.log(rowBounds)
     const width = tabBounds.width;
     const offset = tabBounds.left - rowBounds.left;
-    console.log(width, offset, tabBounds, rowBounds)
+    console.log('tabBounds:', tabBounds);
+    console.log('rowBounds:', rowBounds);
+    console.log('width:', width);
+    console.log('offset:', offset);
     gsap.to(indicator, {
         x: offset,
         width: width,
