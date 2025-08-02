@@ -36,7 +36,8 @@ html {
   height: 50px;
   border: none;
   border-radius: 50%;
-  background-color: #0984e3;
+  background-color: #200aea8f;
+  border: white 1px solid;
   color: white;
   font-size: 24px;
   cursor: pointer;
